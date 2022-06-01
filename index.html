@@ -42,31 +42,37 @@
 
         </section>
 
-        <section id="animalSection" class="hidden">
-            <p>
-                <span>
-                    GORILLA
-                </span>
-                
-                <img id="animalPic" class='animalCard' src="assets/gorilla.png">
+        <section>
 
-                <span id="animalName">
-                    gori
-                </span>
-            </p>
+            <section id="animalSection" class="hidden">
+                <p>
+                    <span class="animalType">
+                        GORILLA
+                    </span>
+                    
+                    <img id="animalPic" class='animalCard' src="assets/gorilla.png">
+
+                    <span id="animalName">
+                        gori
+                    </span>
+                </p>
+            </section>
+
+            <section id="changeAnimal" class="createAnimal hidden">
+                animal name:
+                <input id="nameInput">
+
+                <label for="animalSelect">Choose your picture</label>
+                <select name="animalSelect" id="animalSelect">
+                    <option value="gorilla.png">angry gorilla</option>
+                    <option value="animal_gorilla.png">cute gorilla</option>
+                    <option value="gorilla_hat.png">business gorilla</option>
+                </select>
+            </section>
+
         </section>
 
-        <section id="changeAnimal" class="createAnimal hidden">
-            animal name:
-            <input id="nameInput">
-
-            <label for="animalSelect">Choose your picture</label>
-            <select name="animalSelect" id="animalSelect">
-                <option value="gorilla.png">gorilla</option>
-                <option value="animal_gorilla.png">cute gorilla</option>
-                <option value="gorilla_hat.png">business gorilla</option>
-            </select>
-        </section>
+        
 
     </main>
 
