@@ -12,10 +12,61 @@
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>Me and my animal</h1>
     </header>
 
     <main>
+
+        <section>
+            <h2>
+                about me
+            </h2>
+
+            <div>
+                <span>
+                Just a guy who really likes Japan. I spent all my time teaching kids
+                in Japan. They always laughed at gorilla pictures, so it slowly became
+                my favorite animal.
+                </span>
+            </div>
+
+            
+            <div class="tosCheckbox">
+                <input class="tosCheckbox" type="checkbox" id="tosAgreement">   
+                <span>
+                    To see my favorite animal, check this box and click the button below!
+                </span>
+            </div>
+
+            <button disabled class="showAnimal" id="showAnimal">click me!</button> 
+
+        </section>
+
+        <section>
+            <p>
+                <span>
+                    GORILLA
+                </span>
+                
+                <img class='animalCard' src="assets/gorilla.png">
+
+                <span>
+                    gori
+                </span>
+            </p>
+        </section>
+
+        <section class="createAnimal">
+            animal name:
+            <input>
+
+            <label for="animalSelect" id="animalSelect">Choose your picture</label>
+            <select name="animalSelect" id="animalSelect">
+                <option value="gorilla.png">gorilla</option>
+                <option value="animal_gorilla.png">cute gorilla</option>
+                <option value="hat_gorilla.png">business gorilla</option>
+            </select>
+        </section>
 
     </main>
 

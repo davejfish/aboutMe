@@ -1,9 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
 
+* {
+    box-sizing: border-box;
+}
+
 :root {
     --background: rgb(224, 234, 247);
     --header-background: white;
     --footer-background: rgb(243, 242, 242);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 body {
@@ -14,6 +25,7 @@ body {
 
 header {
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: var(--header-background);
 }
@@ -27,4 +39,54 @@ footer {
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
+}
+
+div {
+    width: 300px
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+p span {
+    height: 20px;
+}
+
+img {
+    width: 100px;
+    padding-top: 1px;
+}
+
+.tosCheckbox {
+    padding-top: 20px;
+}
+
+.animalCard {
+    background-color: white;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    margin-top: 20px;
+}
+
+.showAnimal {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.createAnimal {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
 }
