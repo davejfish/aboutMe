@@ -62,7 +62,6 @@ p span {
 
 img {
     width: 100px;
-    padding-top: 1px;
 }
 
 .tosCheckbox {
@@ -88,5 +87,5 @@ img {
 }
 
 .hidden {
-    display: none;
+    /* display: none; */
 }
