@@ -81,12 +81,12 @@ img {
     margin-top: 20px;
 }
 
-.hidden {
-    display: none;
-}
-
 .createAnimal {
     display: flex;
     flex-direction: column;
     width: 200px;
+}
+
+.hidden {
+    display: none;
 }
