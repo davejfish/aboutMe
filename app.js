@@ -8,7 +8,13 @@ const changeAnimal = document.getElementById('changeAnimal');
 const animalSelect = document.getElementById('animalSelect');
 const animalImage = document.getElementById('animalPic');
 
+const animalName = document.getElementById('animalName');
+const nameInput = document.getElementById('nameInput');
 
+// set event listeners
+    // get info from user input
+    // use user input to update state
+    // update DOM to reflect the new state
 
 tosCheckbox.addEventListener('change', () => {
     showAnimal.disabled = !tosCheckbox.checked;
@@ -23,7 +29,8 @@ animalSelect.addEventListener('change', () => {
     animalImage.src = 'assets/' + animalSelect.value;
 });
 
-// set event listeners
-    // get info from user input
-    // use user input to update state
-    // update DOM to reflect the new state
+nameInput.addEventListener('input', () => {
+    const name = nameInput.value;
+    animalName.textContent = name;
+});
+
