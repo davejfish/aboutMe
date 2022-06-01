@@ -1,9 +1,11 @@
 // grab DOM elements
 
 const tosCheckbox = document.getElementById('tosAgreement');
+const showAnimal = document.getElementById('showAnimal');
 
 tosCheckbox.addEventListener('change', () => {
-    console.log('checkbox checked');
+    console.log('entered function');
+    showAnimal.disabled = !tosCheckbox.checked;
 });
 
 // set event listeners
