@@ -12,10 +12,85 @@
 <body>
     <header>
         <img src="assets/html_css_js.png">
-        <h1>Web UI Project</h1>
+        <h1>Me and my animal</h1>
     </header>
 
     <main>
+
+        <section>
+            <h2>
+                about me
+            </h2>
+
+            <div>
+                <span>
+                Just a guy who really likes Japan. I spent all my time teaching kids
+                in Japan. They always laughed at gorilla pictures, so it slowly became
+                my favorite animal.
+                </span>
+            </div>
+
+            
+            <div class="tosCheckbox">
+                <input class="tosCheckbox" type="checkbox" id="tosAgreement">   
+                <span>
+                    To see my favorite animal, check this box and click the button below!
+                </span>
+            </div>
+
+            <button disabled class="showAnimal" id="showAnimal">click me!</button> 
+
+        </section>
+
+        <section>
+
+            <section id="animalSection" class="hidden">
+                <p id="animalBoxOuter">
+                    <span class="animalType">
+                        GORILLA
+                    </span>
+                    
+                    <img id="animalPic" class='animalCard' src="assets/gorilla.png">
+
+                    <span id="animalName">
+                        gori
+                    </span>
+                </p>
+            </section>
+
+            <section id="changeAnimal" class="createAnimal hidden">
+                animal name:
+                <input id="nameInput">
+
+                <label for="animalSelect">Choose your picture</label>
+                <select name="animalSelect" id="animalSelect">
+                    <option value="gorilla.png">angry gorilla</option>
+                    <option value="animal_gorilla.png">cute gorilla</option>
+                    <option value="gorilla_hat.png">business gorilla</option>
+                </select>
+
+                <label for="colorSelector">choose your outer color</label>
+                <select name="colorSelector" id="colorSelector">
+                    <option value="#6F1A07">barn red</option>
+                    <option value="#453643">coffee black</option>
+                    <option value="#788475">Xandu</option>
+                    <option value="#807182">lavender</option>
+                    <option value="#F7F3E3">cosmic latte</option>
+                </select>
+
+                <label for="colorSelectorInner">choose your inner color</label>
+                <select name="colorSelectorInner" id="colorSelectorInner">
+                    <option value="#F7F3E3">cosmic latte</option>
+                    <option value="#6F1A07">barn red</option>
+                    <option value="#453643">coffee black</option>
+                    <option value="#788475">Xandu</option>
+                    <option value="#807182">lavender</option>
+                </select>
+            </section>
+
+        </section>
+
+        
 
     </main>
 

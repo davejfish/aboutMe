@@ -8,6 +8,16 @@
 
 ## Making a plan
 
+<img src='wireframe.png'>
+
+1. create html and css
+2. implement checkbox and disabled button
+3. grab those elements
+4. unlock button with toscheckbox
+5. add event listener on button to display hidden animal card
+6. grab elements for inputs/drop down boxes and animal card
+7. add event listeners that change the appearance of animal card
+
 1. Make a drawing of your app. **Simple "wireframes"**
 1. Once you have a drawing, **name the HTML elements** you'll need to realize your vision**
 1. For each HTML element ask: **Why do I need this?**
