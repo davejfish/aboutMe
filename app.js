@@ -11,6 +11,11 @@ const animalImage = document.getElementById('animalPic');
 const animalName = document.getElementById('animalName');
 const nameInput = document.getElementById('nameInput');
 
+const animalBoxOuter = document.getElementById('animalBoxOuter');
+const colorSelector = document.getElementById('colorSelector');
+
+const colorSelectorInner = document.getElementById('colorSelectorInner');
+
 // set event listeners
     // get info from user input
     // use user input to update state
@@ -34,3 +39,10 @@ nameInput.addEventListener('input', () => {
     animalName.textContent = name;
 });
 
+colorSelector.addEventListener('change', () => {
+    animalBoxOuter.style.backgroundColor = colorSelector.value;
+});
+
+colorSelectorInner.addEventListener('change', () => {
+    animalImage.style.backgroundColor = colorSelectorInner.value;
+});

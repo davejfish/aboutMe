@@ -64,7 +64,7 @@ p {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: #6F1A07;
     text-align: center;
     width: 250px;
     height: 300px;
@@ -83,7 +83,7 @@ img {
 }
 
 .animalCard {
-    background-color: white;
+    background-color: #F7F3E3;
     text-align: center;
     width: 200px;
     height: 250px;
